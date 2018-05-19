@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/textView2"
+        android:text="1)RICE"
+        android:textSize="40dp"
+        android:textColor="#1edcb6"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageview"
+        android:src="@drawable/rice"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/textView3"
+        android:text="Rice is the seed of the grass species Oryza sativa (Asian rice) or Oryza glaberrima (African rice). As a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia. It is the agricultural commodity with the third-highest worldwide production (rice, 741.5 million tonnes in 2014), after sugarcane (1.9 billion tonnes) and maize (1.0 billion tonnes)."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/textView4"
+        android:text="2)PULSES"
+        android:textSize="40dp"
+        android:textColor="#1edcb6"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageview2"
+        android:src="@drawable/pulses"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/textView5"
+        android:text="A legume (/ˈlɛɡjuːm/ or /ˌləˈɡjuːm/) is a plant or its fruit or seed in the family Fabaceae (or Leguminosae). Legumes are grown agriculturally, primarily for their grain seed called pulse, for livestock forage and silage, and as soil-enhancing green manure."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/textView6"
+        android:text="3)SOYBEAN"
+        android:textSize="40dp"
+        android:textColor="#1edcb6"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageview3"
+        android:src="@drawable/soybean"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/textView7"
+        android:text="Well-known legumes include alfalfa, clover, peas, beans, chickpeas, lentils, lupin bean, mesquite, carob, soybeans, peanuts and tamarind. Fabaceae is the most common family found in tropical rainforests and in dry forests in the Americas and Africa."/>
+
+</LinearLayout>
+
+</ScrollView>

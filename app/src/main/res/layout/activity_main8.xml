@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="1)GROUNDNUT"
+            android:textSize="40dp"
+            android:textColor="#1edcb6"/>
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/groundnut"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Groundnut, which is also known as peanut or pignut, contains magnesium; foliate, vitamin E, copper, and arginine: They are believed to lessen the risk of cardiovascular disease."/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="2)SORGHUM"
+            android:textSize="40dp"
+            android:textColor="#1edcb6"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/sorghum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Sorghum is a genus of flowering plants in the grass family Poaceae. Seventeen of the twenty-five species are native to Australia,[2] with the range of some extending to Africa, Asia, Mesoamerica, and certain islands in the Indian and Pacific Oceans."/>
+        
+    </LinearLayout>
+
+</ScrollView>
