@@ -120,21 +120,21 @@ public class MainActivity extends AppCompatActivity {
         else if(record=="Rajasthan")
         {
             display_data.setText("Rajastan is present on the northwestern side of the India mainly comprises desert soils");
-            Intent intent=new Intent(MainActivity.this,Main3Activity.class);
+            Intent intent=new Intent(MainActivity.this,Main6Activity.class);
             startActivity(intent);
         }
 
         else if(record=="Gujarat")
         {
             display_data.setText("Gujarat is a state in Western India and Northwest India having desert type of land as source of crops");
-            Intent intent=new Intent(MainActivity.this,Main4Activity.class);
+            Intent intent=new Intent(MainActivity.this,Main3Activity.class);
             startActivity(intent);
         }
 
         else if(record=="Punjab")
         {
             display_data.setText("Punjab is a state in northern India with desert soil as land of fertility");
-            Intent intent=new Intent(MainActivity.this,Main5Activity.class);
+            Intent intent=new Intent(MainActivity.this,Main4Activity.class);
             startActivity(intent);
         }
     }

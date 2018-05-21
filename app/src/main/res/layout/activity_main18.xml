@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main18Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/textView2"
+            android:text="1)MELONS"
+            android:textSize="40dp"
+            android:textColor="#1edcb6"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageview"
+            android:src="@drawable/melons"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textView3"
+            android:text="A melon is any of various plants of the family Cucurbitaceae with sweet edible, fleshy fruit. The word melon can refer to either the plant or specifically to the fruit. Botanically, a melon is a kind of berry, specifically a pepo"/>
+    </LinearLayout>
+
+</ScrollView>

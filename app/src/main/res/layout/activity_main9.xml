@@ -11,6 +11,71 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/textView2"
+            android:text="1)BAJRA"
+            android:textSize="40dp"
+            android:textColor="#1edcb6"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageview"
+            android:src="@drawable/bajra"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textView3"
+            android:text="Eleusine coracana, or finger millet, is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas in Africa and Asia."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/textView4"
+            android:text="2)CEREALS"
+            android:textSize="40dp"
+            android:textColor="#1edcb6"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageview2"
+            android:src="@drawable/cereals"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textView5"
+            android:text="A cereal is any edible components of the grain (botanically, a type of fruit called a caryopsis) of cultivated grass, composed of the endosperm, germ, and bran. Cereal grains are grown in greater quantities and provide more food energy worldwide than any other type of crop and are therefore staple crops."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/textView6"
+            android:text="3)COTTON"
+            android:textSize="40dp"
+            android:textColor="#1edcb6"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageview3"
+            android:src="@drawable/cotton"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textView7"
+            android:text="Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus Gossypium in the mallow family Malvaceae."/>
 
 
     </LinearLayout>
